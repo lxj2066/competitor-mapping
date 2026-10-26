@@ -22,8 +22,8 @@
     "zh": "输入目标公司或技术方向，产出带证据链与反证清单的竞对映射档案：质量门、校准打分、分层定位与增量监控。"
   },
   "profession": {
-    "en": "Competitive Intelligence Analyst",
-    "zh": "竞争情报分析师"
+    "en": "Peer Company Research Analyst",
+    "zh": "同类公司调研分析"
   },
   "defaultInitPrompt": {
     "en": "Map the direct and indirect competitors of this company, and show which ones are real benchmarks instead of look-alikes.",
