@@ -1,0 +1,25 @@
+{
+  "target": "示例目标（RV 减速器）",
+  "entities": [
+    {
+      "id": "c001",
+      "name": "同类A",
+      "patent_topics": {"rv": 0.6, "harmonic": 0.2, "bearing": 0.2},
+      "hiring_keywords": ["cuda", "reinforcement-learning", "c++", "ros", "servo"],
+      "pricing_page_hash": "aaa111",
+      "pricing_band_cny": [10000, 20000],
+      "patent_count": 120,
+      "last_funding_event": "2024-06-11"
+    },
+    {
+      "id": "c002",
+      "name": "单源B",
+      "patent_topics": {"rv": 0.5, "bearing": 0.5},
+      "hiring_keywords": ["c++", "servo"],
+      "pricing_page_hash": "bbb222",
+      "pricing_band_cny": [8000, 16000],
+      "patent_count": 40,
+      "last_funding_event": "2025-01-08"
+    }
+  ]
+}

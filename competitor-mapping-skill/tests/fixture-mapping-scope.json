@@ -1,0 +1,20 @@
+{
+  "target_name": "示例目标（RV 减速器）",
+  "basis_date": "2026-10-26",
+  "target_revenue_cny": 100000000,
+  "classification_allowed": ["direct", "indirect", "potential", "comparable"],
+  "min_independent_sources": 2,
+  "verify_max_age_days": 120,
+  "scale_ratio_band": [0.02, 50],
+  "ttl_days": {
+    "value_chain": 540,
+    "patent_graph": 1825,
+    "patent_semantic": 1825,
+    "product_market": 240,
+    "graph_diffusion": 540
+  },
+  "assumptions": [
+    "目标营收按 1 亿元假定，仅用于规模带比较",
+    "行业口径限定精密传动零部件，不含整机厂"
+  ]
+}

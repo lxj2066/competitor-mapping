@@ -1,0 +1,11 @@
+{
+  "name": "示例目标（RV 减速器）",
+  "attributes": {
+    "tech_route": ["cycloidal-pin", "rv-reducer"],
+    "customer": ["industrial-robot-oem"],
+    "business_model": ["component-supply"],
+    "geo": ["CN"],
+    "revenue_cny": 100000000,
+    "segments": ["精密传动"]
+  }
+}

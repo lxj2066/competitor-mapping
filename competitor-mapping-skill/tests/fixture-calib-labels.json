@@ -1,0 +1,17 @@
+{
+  "note": "value_chain 与 product_market 能区分偏好，patent_semantic 无差异（应被拟合成 0 权重）",
+  "pairs": [
+    {"a": "k1", "b": "k2", "preferred": "a"},
+    {"a": "k3", "b": "k2", "preferred": "a"},
+    {"a": "k1", "b": "k4", "preferred": "a"},
+    {"a": "k3", "b": "k4", "preferred": "a"},
+    {"a": "k1", "b": "k2", "preferred": "a"},
+    {"a": "k3", "b": "k2", "preferred": "a"},
+    {"a": "k1", "b": "k4", "preferred": "a"},
+    {"a": "k3", "b": "k4", "preferred": "a"},
+    {"a": "k1", "b": "k2", "preferred": "a"},
+    {"a": "k3", "b": "k2", "preferred": "a"},
+    {"a": "k1", "b": "k4", "preferred": "a"},
+    {"a": "k3", "b": "k4", "preferred": "a"}
+  ]
+}

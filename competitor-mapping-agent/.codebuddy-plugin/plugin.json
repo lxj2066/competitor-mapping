@@ -1,0 +1,63 @@
+{
+  "name": "competitor-mapping-agent",
+  "expertType": "agent",
+  "version": "1.0.0",
+  "description": "Competitive intelligence mapping expert. Turns a target company or technology direction into an auditable competitor mapping dossier: five-channel recall, deterministic quality gate, calibrated log-odds fusion with confidence intervals, mandatory refutation list, tiered dossiers and drift-triggered incremental re-mapping. Every number carries a date and a retrievable source; missing evidence is written as unverified instead of being filled in.",
+  "author": {
+    "name": "李献杰 Lyon"
+  },
+  "agents": [
+    "./agents/competitor-mapping.md"
+  ],
+  "agentName": "competitor-mapping",
+  "skills": [
+    "./skills/competitor-mapping-skill"
+  ],
+  "displayName": {
+    "en": "Competitor Mapping Analyst",
+    "zh": "竞对映射分析师"
+  },
+  "displayDescription": {
+    "en": "Turns a target company or technology into an audit-ready competitor map: quality gate, calibrated scores, refutation list, drift monitoring.",
+    "zh": "输入目标公司或技术方向，产出带证据链与反证清单的竞对映射档案：质量门、校准打分、分层定位与增量监控。"
+  },
+  "profession": {
+    "en": "Competitive Intelligence Analyst",
+    "zh": "竞争情报分析师"
+  },
+  "defaultInitPrompt": {
+    "en": "Map the direct and indirect competitors of this company, and show which ones are real benchmarks instead of look-alikes.",
+    "zh": "帮我把这家公司的直接和间接竞争对手映射出来，要能看出谁是真对标、谁只是长得像。"
+  },
+  "avatar": "avatars/competitor-mapping.png",
+  "categoryId": "08-FinanceInvestment",
+  "plugin": "competitor-mapping-agent",
+  "tags": [
+    {
+      "en": "Competitive Intelligence",
+      "zh": "竞争情报"
+    },
+    {
+      "en": "Benchmark Mapping",
+      "zh": "对标映射"
+    },
+    {
+      "en": "Evidence Gate",
+      "zh": "证据门控"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Map the direct and indirect competitors of this company, and show which ones are real benchmarks instead of look-alikes.",
+      "zh": "帮我把这家公司的直接和间接竞争对手映射出来，要能看出谁是真对标、谁只是长得像。"
+    },
+    {
+      "en": "I have three candidates here. Tell me which one is the real benchmark, and give me the refutation for the other two.",
+      "zh": "我手上有三家候选，帮我判断哪家才是真对标，另外两家给出反证。"
+    },
+    {
+      "en": "The last mapping is out of date. Re-evaluate it based on patent topic drift and hiring signals.",
+      "zh": "上一版映射过时了，按专利主题漂移和招聘技术栈变化重评一次。"
+    }
+  ]
+}

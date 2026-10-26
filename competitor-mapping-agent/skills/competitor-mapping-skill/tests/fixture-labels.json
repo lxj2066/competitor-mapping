@@ -1,0 +1,14 @@
+{
+  "k": 2,
+  "note": "示例标注集，仅用于回归；真实标注须写理由类别与版本号",
+  "judgments": [
+    {
+      "target": "示例目标（RV 减速器）",
+      "candidates": [
+        {"id": "c001", "rel": 2, "reason": "tech"},
+        {"id": "c004", "rel": 1, "reason": "customer"},
+        {"id": "c002", "rel": 0, "reason": "misrecall"}
+      ]
+    }
+  ]
+}

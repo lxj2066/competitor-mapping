@@ -1,0 +1,40 @@
+{
+  "candidates": [
+    {
+      "id": "k1",
+      "name": "校准样本1",
+      "signals": {
+        "value_chain": {"score": 0.90},
+        "product_market": {"score": 0.85},
+        "patent_semantic": {"score": 0.50}
+      }
+    },
+    {
+      "id": "k2",
+      "name": "校准样本2",
+      "signals": {
+        "value_chain": {"score": 0.30},
+        "product_market": {"score": 0.35},
+        "patent_semantic": {"score": 0.50}
+      }
+    },
+    {
+      "id": "k3",
+      "name": "校准样本3",
+      "signals": {
+        "value_chain": {"score": 0.80},
+        "product_market": {"score": 0.75},
+        "patent_semantic": {"score": 0.50}
+      }
+    },
+    {
+      "id": "k4",
+      "name": "校准样本4",
+      "signals": {
+        "value_chain": {"score": 0.40},
+        "product_market": {"score": 0.45},
+        "patent_semantic": {"score": 0.50}
+      }
+    }
+  ]
+}

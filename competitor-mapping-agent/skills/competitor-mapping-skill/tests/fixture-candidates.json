@@ -1,0 +1,253 @@
+{
+  "basis_date": "2026-10-26",
+  "candidates": [
+    {
+      "id": "c001",
+      "name": "同类A（摆线针轮，五路齐）",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA001",
+        "classification": "direct",
+        "classification_basis": "年报披露同款 RV 减速器，供货同一整机厂",
+        "revenue_cny": 80000000,
+        "last_verified": "2026-09-30",
+        "tech_route": ["cycloidal-pin", "rv-reducer"],
+        "customer": ["industrial-robot-oem"],
+        "business_model": ["component-supply"],
+        "geo": ["CN"],
+        "patent_valid": 86,
+        "patent_valid_date": "2026-08-31",
+        "patent_valid_ref": "专利检索 2026-08-31",
+        "patent_recent_3y": 31,
+        "patent_recent_3y_date": "2026-08-31",
+        "patent_recent_3y_ref": "专利检索 2026-08-31",
+        "chain_edges": 7,
+        "chain_edges_date": "2026-09-10",
+        "chain_edges_ref": "公告 2026-09-10"
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.82,
+          "evidence": [{"source_type": "E1", "independent_key": "cninfo-20250815-113",
+                        "claim": "年报披露向同一整机厂供货", "ref": "公告 20250815-113", "date": "2025-08-15"}]
+        },
+        "patent_graph": {
+          "score": 0.74,
+          "evidence": [{"source_type": "E1", "independent_key": "cnipa-20250601-77",
+                        "claim": "同 IPC 主分类下路径邻近", "ref": "专利检索 2025-06-01", "date": "2025-06-01"}]
+        },
+        "patent_semantic": {
+          "score": 0.70,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-topic-20260110",
+                        "claim": "主题分布余弦 0.70", "ref": "主题聚类 2026-01", "date": "2026-01-10"}]
+        },
+        "product_market": {
+          "score": 0.66,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260801",
+                        "claim": "产品页功能项重合 9/12", "ref": "官网快照 2026-08-01", "date": "2026-08-01"}]
+        },
+        "graph_diffusion": {
+          "score": 0.62,
+          "evidence": [{"source_type": "E2", "independent_key": "kg-20260201",
+                        "claim": "种子邻居扩散得分 0.62", "ref": "图扩散 2026-02", "date": "2026-02-01"}]
+        }
+      }
+    },
+    {
+      "id": "c002",
+      "name": "单源B（只有一条 E1）",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA002",
+        "classification": "direct",
+        "classification_basis": "官网自称同类产品",
+        "revenue_cny": 60000000,
+        "last_verified": "2026-09-01",
+        "tech_route": ["cycloidal-pin"],
+        "customer": ["industrial-robot-oem"],
+        "business_model": ["component-supply"],
+        "geo": ["CN"]
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.80,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260701",
+                        "claim": "官网披露供货某整机厂", "ref": "官网 2026-07-01", "date": "2026-07-01"}]
+        }
+      }
+    },
+    {
+      "id": "c003",
+      "name": "停业C",
+      "attributes": {
+        "status": "deregistered",
+        "entity_key": "CN-91330100AAA003",
+        "classification": "direct",
+        "classification_basis": "历史同类产品",
+        "revenue_cny": 30000000,
+        "last_verified": "2026-09-01"
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.70,
+          "evidence": [{"source_type": "E1", "independent_key": "gs-20250101",
+                        "claim": "登记状态已注销", "ref": "登记信息 2025-01-01", "date": "2025-01-01"}]
+        }
+      }
+    },
+    {
+      "id": "c004",
+      "name": "跨路线D（谐波，高分但技术互斥）",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA004",
+        "classification": "direct",
+        "classification_basis": "同客户群，技术路线不同",
+        "revenue_cny": 120000000,
+        "last_verified": "2026-09-20",
+        "tech_route": ["harmonic-drive"],
+        "customer": ["industrial-robot-oem"],
+        "business_model": ["component-supply"],
+        "geo": ["CN"]
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.80,
+          "evidence": [{"source_type": "E1", "independent_key": "cninfo-20250901-201",
+                        "claim": "同一客户采购目录", "ref": "公告 20250901-201", "date": "2025-09-01"}]
+        },
+        "patent_graph": {
+          "score": 0.78,
+          "evidence": [{"source_type": "E1", "independent_key": "cnipa-20250701-12",
+                        "claim": "IPC 邻近", "ref": "专利检索 2025-07-01", "date": "2025-07-01"}]
+        },
+        "patent_semantic": {
+          "score": 0.80,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-topic-20260301",
+                        "claim": "主题分布余弦 0.80", "ref": "主题聚类 2026-03", "date": "2026-03-01"}]
+        },
+        "product_market": {
+          "score": 0.76,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260810",
+                        "claim": "功能项重合 8/12", "ref": "官网 2026-08-10", "date": "2026-08-10"}]
+        },
+        "graph_diffusion": {
+          "score": 0.70,
+          "evidence": [{"source_type": "E3", "independent_key": "media-20260401",
+                        "claim": "媒体报道同赛道", "ref": "媒体 2026-04-01", "date": "2026-04-01"}]
+        }
+      }
+    },
+    {
+      "id": "c005",
+      "name": "小体量E（规模错配）",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA005",
+        "classification": "indirect",
+        "classification_basis": "同一关节需求，配件级供应",
+        "revenue_cny": 500000,
+        "last_verified": "2026-09-15",
+        "tech_route": ["cycloidal-pin"],
+        "customer": ["industrial-robot-oem"],
+        "business_model": ["component-supply"],
+        "geo": ["CN"]
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.58,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260615",
+                        "claim": "名录出现", "ref": "名录 2026-06-15", "date": "2026-06-15"}]
+        },
+        "patent_semantic": {
+          "score": 0.55,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-topic-20260401",
+                        "claim": "主题余弦 0.55", "ref": "主题聚类 2026-04", "date": "2026-04-01"}]
+        },
+        "product_market": {
+          "score": 0.52,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260720",
+                        "claim": "功能项重合 4/12", "ref": "官网 2026-07-20", "date": "2026-07-20"}]
+        }
+      }
+    },
+    {
+      "id": "c006",
+      "name": "未分类F",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA006",
+        "classification": "unclassified",
+        "revenue_cny": 70000000,
+        "last_verified": "2026-09-05"
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.66,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260501",
+                        "claim": "同行页面", "ref": "官网 2026-05-01", "date": "2026-05-01"}]
+        },
+        "patent_graph": {
+          "score": 0.60,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-20260501",
+                        "claim": "IPC 邻近", "ref": "专利库 2026-05-01", "date": "2026-05-01"}]
+        }
+      }
+    },
+    {
+      "id": "c007",
+      "name": "缺字段G",
+      "attributes": {
+        "status": "active",
+        "classification": "direct",
+        "classification_basis": "自称同类",
+        "revenue_cny": 60000000
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.60,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260820",
+                        "claim": "自称同类产品", "ref": "官网 2026-08-20", "date": "2026-08-20"}]
+        },
+        "patent_semantic": {
+          "score": 0.58,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-20260820",
+                        "claim": "主题余弦 0.58", "ref": "专利库 2026-08-20", "date": "2026-08-20"}]
+        }
+      }
+    },
+    {
+      "id": "c008",
+      "name": "通道冲突H",
+      "attributes": {
+        "status": "active",
+        "entity_key": "CN-91330100AAA008",
+        "classification": "indirect",
+        "classification_basis": "产业链邻近，技术路线不同",
+        "revenue_cny": 60000000,
+        "last_verified": "2026-09-01",
+        "tech_route": ["planetary-reducer"],
+        "customer": ["industrial-robot-oem"],
+        "business_model": ["component-supply"],
+        "geo": ["CN"]
+      },
+      "signals": {
+        "value_chain": {
+          "score": 0.85,
+          "evidence": [{"source_type": "E1", "independent_key": "cninfo-20250815-301",
+                        "claim": "同一整机厂采购", "ref": "公告 20250815-301", "date": "2025-08-15"}]
+        },
+        "patent_semantic": {
+          "score": 0.20,
+          "evidence": [{"source_type": "E2", "independent_key": "patentdb-20260110",
+                        "claim": "主题余弦 0.20", "ref": "主题聚类 2026-01", "date": "2026-01-10"}]
+        },
+        "product_market": {
+          "score": 0.30,
+          "evidence": [{"source_type": "E1", "independent_key": "site-20260801",
+                        "claim": "功能项重合 2/12", "ref": "官网 2026-08-01", "date": "2026-08-01"}]
+        }
+      }
+    }
+  ]
+}
